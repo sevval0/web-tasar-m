@@ -1,0 +1,39 @@
+.con{
+    padding: 10px;
+}
+.navbar navbar-expand-lg navbar-light{
+    width: 100%;
+    background-color:rgb(218, 207, 240); 
+}
+aside{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.side{
+    width: 100%;
+    display: block;
+    float: left;
+    margin-left: 300px; margin-right: 300px;
+}
+.side>.con>img{
+    width: 120px;
+    float: left;
+    margin-left: 300px; margin-right: 300px;
+}
+@media only screen and (max-width:1200px){
+    .side>.con>img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:870px){
+.navbar{
+background-color: rgb(218, 207, 240); 
+}
+.side{
+    width: 98%;
+}
+.side>.con>img{
+    width: 50%;
+}
+}
